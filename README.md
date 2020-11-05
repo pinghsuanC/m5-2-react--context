@@ -1,28 +1,44 @@
-# Workshop: Cookie Clicker REMIX
+# Workshop: Cookie Clicker
 
-In the last workshop, we built a Cookie Clicker game. Today we'll be updating it.
+This workshop challenges you to build an **idle game**.
 
-One of the hardest parts of being a developer is dealing with changing requirements. Often you'll have built a wonderful, functional app, and then a product manager will say "actually, we want to move this bit of functionality to _after_ the signup flow", and implementing that change can be challenging.
+An idle game is a game that involves very little active gameplay, and mostly a lot of waiting around for resources to grow. The most famous example of an idle game is [cookie clicker](https://orteil.dashnet.org/cookieclicker/), so we'll create a simple clone of that game.
 
-In this workshop, several new requirements have been added!
+The game features a cookie that can be clicked; every click yields 1 cookie. You can use cookies to buy resources that purchase cookies automatically for you.
 
-This workshop also introduces **React context**. This part of the problem takes the shape of a more typical guided workshop, but it comes afterwards.
+Here's a finished working demo:
 
-### Starting point
+![working demo](./__lecture/assets/clicker.gif)
 
-For your convenience, an initial version of the last workshop's base solution is provided. If you'd prefer, you can definitely keep working on your version though!
+---
 
-## Exercise 1: Fulfill new requirements
+## Exercise 1: Finishing the UI
 
 Open this exercise file: [exercise-1.md](__workshop/exercise-1.md)
 
-## Exercise 2: Using React Context
+## Exercise 2: Adding State
 
 Open this exercise file: [exercise-2.md](__workshop/exercise-2.md)
 
-## Exercise 3: Consuming context
+## Exercise 3: Passive cookie generation
 
 Open this exercise file: [exercise-3.md](__workshop/exercise-3.md)
+
+## Exercise 4: Updating the Tab Title
+
+Open this exercise file: [exercise-4.md](__workshop/exercise-4.md)
+
+## Exercise 5: Using the "space" Key
+
+Open this exercise file: [exercise-5.md](__workshop/exercise-5.md)
+
+## Exercise 6: Focusing the first store item on mount
+
+Open this exercise file: [exercise-6.md](__workshop/exercise-6.md)
+
+## Exercise 7: Custom hooks
+
+Open this exercise file: [exercise-7.md](__workshop/exercise-7.md)
 
 ---
 
@@ -30,9 +46,13 @@ Open this exercise file: [exercise-3.md](__workshop/exercise-3.md)
 
 ---
 
-## Exercise 4: Calculating cookies earned while away
+## Exercise 8: Increasing cookies per click
 
-Open this exercise file: [exercise-4.md](__workshop/exercise-4.md)
+Open this exercise file: [exercise-8.md](__workshop/exercise-8.md)
+
+## Exercise 9: Increased pricing
+
+Open this exercise file: [exercise-9.md](__workshop/exercise-9.md)
 
 ---
 
@@ -40,10 +60,6 @@ Open this exercise file: [exercise-4.md](__workshop/exercise-4.md)
 
 ---
 
-## Exercise 5: Finish up the last stretch goals!
+## Exercise 10: Add whimsy
 
-Last workshop included many stretch goals. Start by tackling them!
-
-## Exercise 6: More refactoring!
-
-Pick a previous workshop, and use what you've learned to apply some of these best practices.
+Open this exercise file: [exercise-10.md](__workshop/exercise-10.md)
